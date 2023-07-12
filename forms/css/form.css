@@ -8,13 +8,17 @@ h1, h2, h3, p {
   color: white;
 }
 
-
-/* form styling */
-label 
+#form
 {
 	border-style: solid;
 	border-radius: 5px;
 	border-color: white;
+	
+}
+
+/* form styling */
+label 
+{
 	margin-right: .3em;
 	width: 3.3em; /* I made this deliberately wide – come up with your own optimal width */
 	display: inline-block; /* width will not work for “inline” elements such as “label”. Therefore we need to set it to “inline-block” */
