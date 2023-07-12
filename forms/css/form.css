@@ -2,14 +2,28 @@
 
 
 /* form styling */
+label 
+{
+	margin-right: .3em;
+	width: 6.3em; /* I made this deliberately wide – come up with your own optimal width */
+	display: inline-block; /* width will not work for “inline” elements such as “label”. Therefore we need to set it to “inline-block” */
+}
 
+/* we place the id formcol1 in front of the li element in order to limit this
+formatting to the top part of the form */
+#formcol1 li 
+{
+	list-style:none;
+}
 
-#wrapper {
+#wrapper 
+{
 	width: 60%;
 	margin-left:4%;
 }
 
-div#formcol1 {
+div#formcol1 
+{
 	float:left;	
 	width: 100%;
 }
