@@ -40,6 +40,13 @@ div#formcol1
 	border-color: white;
 }
 
+div#formcol1 
+{
+	border-style: solid;
+	border-radius: 5px;
+	border-color: white;
+}
+
 
 
 /* end of form css */
