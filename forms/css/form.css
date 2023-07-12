@@ -8,13 +8,6 @@ h1, h2, h3, p {
   color: white;
 }
 
-#form
-{
-	border-style: solid;
-	border-radius: 5px;
-	border-color: white;
-	
-}
 
 /* form styling */
 label 
@@ -41,6 +34,9 @@ div#formcol1
 {
 	float:left;	
 	width: 100%;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: white;
 }
 
 
